@@ -4,6 +4,7 @@ import NameForm from './components/NameForm'
 import CounterWithEffect from './components/CounterWithEffect'
 import StaticComponent from './components/StaticCompoment/StaticComponent'
 import UserList from './components/UserList/UserList'
+import UserListWithLoading from './components/UserListWithLoading/UserListWithLoading'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
       <h3><i>Counter with effect</i></h3>
       <CounterWithEffect /> */}
       <UserList />
+      <br />
+      <UserListWithLoading />
     </>
   )
 }
