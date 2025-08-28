@@ -6,6 +6,7 @@ import StaticComponent from './components/StaticCompoment/StaticComponent'
 import UserList from './components/UserList/UserList'
 import UserListWithLoading from './components/UserListWithLoading/UserListWithLoading'
 import SearchPosts from './components/SearchPosts/SearchPosts'
+import Counter2 from './components/Counter2/Counter2'
 
 function App() {
 
@@ -24,9 +25,9 @@ function App() {
       <CounterWithEffect />
       <UserList />
       <br />
-      <UserListWithLoading /> */}
-
-      <SearchPosts />
+      <UserListWithLoading />
+      <SearchPosts /> */}
+      <Counter2 />
     </>
   )
 }
