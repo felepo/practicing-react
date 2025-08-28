@@ -5,6 +5,7 @@ import CounterWithEffect from './components/CounterWithEffect'
 import StaticComponent from './components/StaticCompoment/StaticComponent'
 import UserList from './components/UserList/UserList'
 import UserListWithLoading from './components/UserListWithLoading/UserListWithLoading'
+import SearchPosts from './components/SearchPosts/SearchPosts'
 
 function App() {
 
@@ -20,10 +21,12 @@ function App() {
       <h3><i>Name Form</i></h3>
       <NameForm />
       <h3><i>Counter with effect</i></h3>
-      <CounterWithEffect /> */}
+      <CounterWithEffect />
       <UserList />
       <br />
-      <UserListWithLoading />
+      <UserListWithLoading /> */}
+
+      <SearchPosts />
     </>
   )
 }
