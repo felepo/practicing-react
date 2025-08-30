@@ -9,6 +9,7 @@ import UserListWithLoading from './components/UserListWithLoading/UserListWithLo
 import SearchPosts from './components/SearchPosts/SearchPosts'
 import Counter2 from './components/Counter2/Counter2'
 import CounterWithCustomHook from './components/CounterWithCustomHook/CounterWithCustomHook';
+import CounterWithReactMemo from './components/CounterWithReactMemo/CounterWithReactMemo';
 
 // const ThemeContext = createContext();
  
@@ -72,8 +73,9 @@ function App() {
     //   <SearchPosts />
     //   <Counter2 />
     // </>
+    // <CounterWithCustomHook />
 
-    <CounterWithCustomHook />
+    <CounterWithReactMemo />
   )
 }
 
