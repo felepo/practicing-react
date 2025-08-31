@@ -10,6 +10,7 @@ import SearchPosts from './components/SearchPosts/SearchPosts'
 import Counter2 from './components/Counter2/Counter2'
 import CounterWithCustomHook from './components/CounterWithCustomHook/CounterWithCustomHook';
 import CounterWithReactMemo from './components/CounterWithReactMemo/CounterWithReactMemo';
+import ButtonTS from './components/ButtonTS/ButtonTS';
 
 // const ThemeContext = createContext();
  
@@ -49,6 +50,10 @@ import CounterWithReactMemo from './components/CounterWithReactMemo/CounterWithR
 
 function App() {
 
+  const clickHandler = () => {
+    alert('Button clicked!');
+  };
+
   return (
     // <ThemeProvider>
     //   <ThemeButton />
@@ -74,8 +79,8 @@ function App() {
     //   <Counter2 />
     // </>
     // <CounterWithCustomHook />
-
-    <CounterWithReactMemo />
+    // <CounterWithReactMemo />
+    <ButtonTS clickHandler={clickHandler} label="Click me!" />
   )
 }
 
