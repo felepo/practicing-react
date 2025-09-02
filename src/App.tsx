@@ -12,6 +12,8 @@ import CounterWithCustomHook from './components/CounterWithCustomHook/CounterWit
 import CounterWithReactMemo from './components/CounterWithReactMemo/CounterWithReactMemo';
 import ButtonTS from './components/ButtonTS/ButtonTS';
 import CounterTS from './components/CounterTS/CounterTS';
+import CounterWithReducer from './components/CounterWithReducer/CounterWithReducer';
+import { ButtonContextApi } from './components/ButtonContextApi/ButtonContextApi'
 
 // const ThemeContext = createContext();
  
@@ -88,7 +90,8 @@ function App() {
     // <CounterWithCustomHook />
     // <CounterWithReactMemo />
     // <ButtonTS clickHandler={clickHandler} label="Click me!" />
-    <CounterTS />
+    // <CounterTS />
+    <CounterWithReducer />
   )
 }
 
