@@ -11,6 +11,7 @@ import Counter2 from './components/Counter2/Counter2'
 import CounterWithCustomHook from './components/CounterWithCustomHook/CounterWithCustomHook';
 import CounterWithReactMemo from './components/CounterWithReactMemo/CounterWithReactMemo';
 import ButtonTS from './components/ButtonTS/ButtonTS';
+import CounterTS from './components/CounterTS/CounterTS';
 
 // const ThemeContext = createContext();
  
@@ -48,11 +49,17 @@ import ButtonTS from './components/ButtonTS/ButtonTS';
 //   )
 // }
 
+function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+
 function App() {
 
-  const clickHandler = () => {
-    alert('Button clicked!');
-  };
+  // const clickHandler = () => {
+  //   alert('Button clicked!');
+  // };
+
+  console.log(greet("world"));
 
   return (
     // <ThemeProvider>
@@ -80,7 +87,8 @@ function App() {
     // </>
     // <CounterWithCustomHook />
     // <CounterWithReactMemo />
-    <ButtonTS clickHandler={clickHandler} label="Click me!" />
+    // <ButtonTS clickHandler={clickHandler} label="Click me!" />
+    <CounterTS />
   )
 }
 
